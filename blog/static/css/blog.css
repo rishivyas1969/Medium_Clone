@@ -1,0 +1,83 @@
+.techfont {
+    font-family: Playfair;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+body {
+    font-family: Montserrat;
+}
+
+.mybrand {
+    font-size: 1.8em;
+    font-weight: 700;
+
+    font-family: Playfair;
+}
+.custom-navbar {
+    margin-bottom: 5px;
+}
+
+.centerstage {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.postdate {
+    text-align: center;
+
+}
+
+.posttitle {
+    font-family: Montserrat;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.postcontent{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+}
+
+.btn-comment {
+    position: absolute;
+    right: 0px;
+}
+
+/* COLOR CHANGER */
+
+.loader {
+    filter:hue-rotate(0deg);
+    color:linear-gradient(45deg,#0f8,#08f);
+    animation:hue 10000ms infinite linear;
+   
+  }
+  @keyframes spinify {
+    0% {
+      transform: translate(0px,0px);
+      
+    }
+    33% {
+      transform: translate(0px,24px);
+      border-radius:100%;
+      width:10px;
+      height:10px;
+   
+    }
+     66% {
+      transform:translate(0px,-16px);
+    }
+    
+     88% {
+      transform:translate(0px,4px);
+       
+    }
+    100% {
+      transform:translate(0px,0px);
+    }
+  }
+  @keyframes hue{
+    0%{filter: hue-rotate(0deg);}
+    100%{filter:hue-rotate(360deg);}
+    
+  }
